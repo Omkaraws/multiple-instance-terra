@@ -2,6 +2,8 @@
 multiple-instance-using-terra
 mkdir ~/terraform-count-ec2-demo
 cd ~/terraform-count-ec2-demo
+
+
 1.Next open the editor you wish to use and copy-paste the below configuration in the main.tf inside the ~/terraform-count-ec2-demo directory. This main.tf file is used to define all the resources you wish to launch or manage with terraform. Below are some high level walkthroughs of the code:
 count = 4 signifies that Four resources of the same kind will be provisioned.
 Amazon machine image (ami) - Allows you to launch instances containing all the required softwares and operating system.
